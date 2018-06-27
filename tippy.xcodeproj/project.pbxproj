@@ -15,6 +15,7 @@
 		0301165220E2D808006E7D4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0301165120E2D808006E7D4C /* main.m */; };
 		0301165C20E2D808006E7D4C /* tippyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0301165B20E2D808006E7D4C /* tippyTests.m */; };
 		0301166720E2D808006E7D4C /* tippyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0301166620E2D808006E7D4C /* tippyUITests.m */; };
+		0301167620E301B5006E7D4C /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0301167520E301B5006E7D4C /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0301166220E2D808006E7D4C /* tippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0301166620E2D808006E7D4C /* tippyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tippyUITests.m; sourceTree = "<group>"; };
 		0301166820E2D808006E7D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0301167420E301B5006E7D4C /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		0301167520E301B5006E7D4C /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				0301164520E2D806006E7D4C /* ViewController.h */,
 				0301164620E2D806006E7D4C /* ViewController.m */,
 				0301164820E2D806006E7D4C /* Main.storyboard */,
+				0301167420E301B5006E7D4C /* SettingsViewController.h */,
+				0301167520E301B5006E7D4C /* SettingsViewController.m */,
 				0301164B20E2D808006E7D4C /* Assets.xcassets */,
 				0301164D20E2D808006E7D4C /* LaunchScreen.storyboard */,
 				0301165020E2D808006E7D4C /* Info.plist */,
@@ -265,6 +270,7 @@
 				0301164720E2D806006E7D4C /* ViewController.m in Sources */,
 				0301165220E2D808006E7D4C /* main.m in Sources */,
 				0301164420E2D806006E7D4C /* AppDelegate.m in Sources */,
+				0301167620E301B5006E7D4C /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
